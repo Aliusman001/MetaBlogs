@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --textColor: #97989f;
+  --headingColor: #181a2a;
+  --bigHeading: 36px;
+  --footer: #696a75;
+}
+.slick-prev:before,
+.slick-next:before {
+  display: none;
+}
+nav .active {
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity)) !important;
+}
+
+.MuiTabs-indicator {
+  display: none;
+}
+.TabList .Mui-selected {
+  color: rgb(13, 81, 209) !important;
+}
